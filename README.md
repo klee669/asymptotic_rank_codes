@@ -8,7 +8,7 @@ This is the repo for the paper ``Asymptotic rank bounds: a numerical census'' (h
 Open the following files in Julia and execute them from top to bottom, for example with Shift+Enter in VS Code:
 
 1. `01_collect_points.jl` constructs the square sliced tensor system and either
-   loads the included monodromy pool or resumes point collection. (for codim 1, it is enough to get a lower bound of the degree for the secant variety)
+   loads the included monodromy pool or resumes point collection. (for codim 1, running this file is enough to get a lower bound of the degree for the secant variety)
 2. `02_interpolate_and_certify.jl` evaluates the projectively normalized
    Bombieri-Weyl basis, selects rows by pivoted QR, and certifies the selected
    roots.

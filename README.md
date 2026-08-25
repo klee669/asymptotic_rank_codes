@@ -23,4 +23,4 @@ file 01 skips monodromy when run against the included data, while files 02 and
 03 can recompute their respective stages.
 
 ## Caveat
-Large JLD2 files are committed directly. The largest file is approximately 66 MB.
+Large JLD2 files are committed directly. The largest file is approximately 66 MB for the r=9 case.
